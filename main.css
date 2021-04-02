@@ -84,7 +84,6 @@ body {
     display: inline;
     background-color: white;
     color: #555;
-    /* display: grid; */
     grid-template-columns: 90% 10%;
   }
 
@@ -198,10 +197,37 @@ body {
   .latest-news-sec {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  .news-img {
+    width: 100%;
   }
 
   .latest-news-container {
-    width: ;
+    margin: -1.7em;
+    margin-top: 1em;
+  }
+  .news-text {
+    text-decoration: none;
+    font-family: "Dela Gothic One", cursive;
+    color: black;
+  }
+
+  .LNS-high {
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #f42;
+    font-size: 15px;
+  }
+  .news-autor {
+    font-size: 0.6em;
+    color: rgb(165, 161, 161);
+  }
+  .ltn {
+    margin-left: 6em;
+    margin-bottom: -2em;
   }
 }
